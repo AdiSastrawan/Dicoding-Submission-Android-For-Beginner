@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">MySubmission</string>
+    <string name="title">LOL Champions</string>
+    <string name="about">About</string>
     <string-array name="champions_name">
         <item>Aatrox</item>
         <item>Ahri</item>

@@ -2,8 +2,33 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.MySubmission" parent="Theme.Material3.DayNight">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/blue_7</item>
+        <item name="colorPrimaryVariant">@color/gold_4</item>
+        <item name="colorOnPrimary">@color/gold_3</item>
+        <item name="colorSecondary">@color/blue_7</item>
+        <item name="colorSecondaryVariant">@color/gold_4</item>
+        <item name="colorOnSecondary">@color/gold_3</item>
+        <item name="android:windowBackground">@drawable/background_gradient</item>
+        <item name="android:fontFamily">@font/beaufort_heavy</item>
     </style>
 
     <style name="Theme.MySubmission" parent="Base.Theme.MySubmission" />
+
+    <style name="TextContent">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="TextContent.Headline">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextContent.Headline.Title">
+        <item name="android:fontFamily">@font/beaufort_heavy</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/gold_1</item>
+    </style>
+    <style name="TextContent.Paragraph">
+        <item name="android:fontFamily">@font/spiegel_regular</item>
+        <item name="android:textColor">@color/grey_1</item>
+        <item name="android:textSize">14sp</item>
+    </style>
 </resources>
