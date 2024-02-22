@@ -1,8 +1,10 @@
 package com.adisastrawan.mysubmission
 
+import android.content.Intent
 import android.graphics.drawable.ColorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 import android.text.Html
 import android.view.Menu
 import android.view.MenuItem
@@ -33,7 +35,8 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
             R.id.about_page ->{
-
+                val intent = Intent(this@MainActivity,AboutActivity::class.java)
+                startActivity(intent)
             }
         }
         return super.onOptionsItemSelected(item)
@@ -48,9 +51,12 @@ class MainActivity : AppCompatActivity() {
         val dataName = resources.getStringArray(R.array.champions_name)
         val dataDesc = resources.getStringArray(R.array.champions_desc)
         val photos = resources.obtainTypedArray(R.array.champ_photo)
+        val dataRole = resources.getStringArray(R.array.champions_role)
+        val dataDifficulty = resources.getStringArray(R.array.champions_difficulty)
+        val dataSubname = resources.getStringArray(R.array.champions_subname)
         val listChamp =ArrayList<Champion>()
         for(i in dataName.indices){
-            val champions = Champion(dataName[i],dataDesc[i],photos.getResourceId(i,-1))
+            val champions = Champion(dataName[i],dataDesc[i],photos.getResourceId(i,-1),dataDifficulty[i],dataRole[i],dataSubname[i])
             listChamp.add(champions)
         }
         return listChamp

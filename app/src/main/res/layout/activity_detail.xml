@@ -1,9 +1,172 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".DetailActivity">
+    android:layout_height="wrap_content">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".DetailActivity">
+
+        <TextView
+            android:id="@+id/tv_champ_name"
+            style="@style/TextContent.Headline.Title"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:text="Name"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="48sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toTopOf="@+id/v_stroke"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_champ_subname" />
+
+        <TextView
+            android:id="@+id/tv_champ_subname"
+            style="@style/TextContent.Headline"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/beaufort_bold"
+            android:gravity="center"
+            android:text="Subname"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_champ" />
+
+        <ImageView
+            android:id="@+id/img_champ"
+            android:layout_width="wrap_content"
+            android:layout_height="320dp"
+            android:layout_marginTop="32dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ahri" />
+
+        <View
+            android:id="@+id/v_stroke"
+            android:layout_width="1dp"
+            android:layout_height="80dp"
+            android:background="@color/gold_4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_champ_name" />
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/TextContent.SubHeadline"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/spiegel_semi_bold"
+            android:text="Role"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/guideline"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/v_stroke"
+            app:layout_constraintTop_toBottomOf="@+id/tv_champ_name" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/TextContent.SubHeadline"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/spiegel_semi_bold"
+            android:text="difficulty"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/guideline"
+            app:layout_constraintEnd_toStartOf="@+id/v_stroke"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_champ_name" />
+
+        <TextView
+            android:id="@+id/tv_difficulty"
+            style="@style/TextContent.SubHeadline"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Moderate"
+            android:textAllCaps="true"
+            android:textColor="@color/gold_2"
+            app:layout_constraintEnd_toEndOf="@+id/textView2"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/tv_role"
+            style="@style/TextContent.SubHeadline"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Mage"
+            android:textAllCaps="true"
+            android:textColor="@color/gold_2"
+            app:layout_constraintEnd_toEndOf="@+id/textView3"
+            app:layout_constraintStart_toStartOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <TextView
+            android:id="@+id/tv_champ_desc"
+            style="@style/TextContent.Paragraph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/action_share"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/v_stroke"
+            tools:text="Innately connected to the magic of the spirit realm, Ahri is a fox-like vastaya who can manipulate her prey's emotions and consume their essence—receiving flashes of their memory and insight from each soul she consumes. Once a powerful yet wayward predator, Ahri is now traveling the world in search of remnants of her ancestors while also trying to replace her stolen memories with ones of her own making." />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/gold_4"
+            app:layout_constraintBottom_toTopOf="@+id/tv_champ_desc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/guideline" />
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="528dp" />
+
+        <Button
+            android:id="@+id/action_share"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/blue_3"
+            android:text="Share"
+            android:backgroundTintMode="screen"
+            android:textColor="@color/blue_1"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
