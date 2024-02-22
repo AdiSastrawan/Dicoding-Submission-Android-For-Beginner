@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.MySubmission" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/blue_7</item>
+        <item name="colorPrimaryVariant">@color/gold_4</item>
+        <item name="colorOnPrimary">@color/gold_3</item>
+        <item name="colorSecondary">@color/blue_7</item>
+        <item name="colorSecondaryVariant">@color/gold_4</item>
+        <item name="colorOnSecondary">@color/gold_3</item>
+        <item name="android:windowBackground">@drawable/background_gradient</item>
+        <item name="android:fontFamily">@font/beaufort_heavy</item>
+        <item name="android:windowSplashScreenBackground">@color/blue_6</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/lol_flat</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/blue_4</item>
+    </style>
+</resources>

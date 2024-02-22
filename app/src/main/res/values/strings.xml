@@ -236,4 +236,238 @@
         <item>@drawable/zed</item>
         <item>@drawable/zeri</item>
     </integer-array>
+    <string-array name="champions_role">
+        <item>Fighter</item>
+        <item>Mage</item>
+        <item>Assassin</item>
+        <item>Support</item>
+        <item>Assassin</item>
+        <item>Support</item>
+        <item>Marksman</item>
+        <item>Fighter</item>
+        <item>Mage</item>
+        <item>Fighter</item>
+        <item>Fighter</item>
+        <item>Fighter</item>
+        <item>Assassin</item>
+        <item>Mage</item>
+        <item>Assassin</item>
+        <item>Mage</item>
+        <item>Fighter</item>
+        <item>Assassin</item>
+        <item>Tank</item>
+        <item>Fighter</item>
+        <item>Tank</item>
+        <item>Fighter</item>
+        <item>Mage</item>
+        <item>Mage</item>
+        <item>Fighter</item>
+        <item>Fighter</item>
+        <item>Support</item>
+        <item>Support</item>
+        <item>Fighter</item>
+        <item>Fighter</item>
+        <item>Marksman</item>
+        <item>Marksman</item>
+        <item>Marksman</item>
+        <item>Fighter</item>
+        <item>Mage</item>
+        <item>Assassin</item>
+        <item>Tank</item>
+        <item>Tank</item>
+        <item>Mage</item>
+        <item>Support</item>
+        <item>Mage</item>
+        <item>Support</item>
+        <item>Fighter</item>
+        <item>Fighter</item>
+        <item>Mage</item>
+        <item>Fighter</item>
+        <item>Fighter</item>
+        <item>Tank</item>
+        <item>Support</item>
+        <item>Assassin</item>
+        <item>Marksman</item>
+        <item>Support</item>
+        <item>Tank</item>
+        <item>Assassin</item>
+        <item>Marksman</item>
+        <item>Fighter</item>
+        <item>Marksman</item>
+        <item>Support</item>
+        <item>Mage</item>
+        <item>Assassin</item>
+        <item>Fighter</item>
+        <item>Fighter</item>
+        <item>Marksman</item>
+        <item>Marksman</item>
+        <item>Mage</item>
+        <item>Fighter</item>
+        <item>Fighter</item>
+        <item>Marksman</item>
+        <item>Mage</item>
+        <item>Fighter</item>
+        <item>Assassin</item>
+        <item>Fighter</item>
+        <item>Fighter</item>
+        <item>Fighter</item>
+        <item>Assassin</item>
+        <item>Marksman</item>
+    </string-array>
+    <string-array name="champions_difficulty">
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>High</item>
+        <item>Low</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Low</item>
+        <item>Moderate</item>
+        <item>Low</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>High</item>
+        <item>Low</item>
+        <item>High</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Low</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>High</item>
+        <item>Moderate</item>
+        <item>High</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Low</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>High</item>
+        <item>High</item>
+        <item>High</item>
+        <item>High</item>
+        <item>Low</item>
+        <item>Moderate</item>
+        <item>Low</item>
+        <item>Moderate</item>
+        <item>Low</item>
+        <item>Low</item>
+        <item>Low</item>
+        <item>Low</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Low</item>
+        <item>High</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Low</item>
+        <item>Moderate</item>
+        <item>Low</item>
+        <item>Low</item>
+        <item>Low</item>
+        <item>Low</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>High</item>
+        <item>Moderate</item>
+        <item>High</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate</item>
+    </string-array>
+    <string-array name="champions_subname">
+        <item>THE DARKIN BLADE</item>
+        <item>THE NINE-TAILED FOX</item>
+        <item>THE ROGUE ASSASSIN</item>
+        <item>THE WANDERING CARETAKER</item>
+        <item>THE EMPRESS OF THE VOID</item>
+        <item>THE GREAT STEAM GOLEM</item>
+        <item>THE SHERIFF OF PILTOVER</item>
+        <item>THE STEEL SHADOW</item>
+        <item>THE SERPENT\'S EMBRACE</item>
+        <item>THE HAND OF NOXUS</item>
+        <item>SCORN OF THE MOON</item>
+        <item>THE MADMAN OF ZAUN</item>
+        <item>THE BOY WHO SHATTERED TIME</item>
+        <item>THE SPIDER QUEEN</item>
+        <item>AGONY\'S EMBRACE</item>
+        <item>THE ANCIENT FEAR</item>
+        <item>THE GRAND DUELIST</item>
+        <item>THE TIDAL TRICKSTER</item>
+        <item>THE COLOSSUS</item>
+        <item>THE SALTWATER SCOURGE</item>
+        <item>THE MIGHT OF DEMACIA</item>
+        <item>THE SHADOW OF WAR</item>
+        <item>THE REVERED INVENTOR</item>
+        <item>THE VISIONARY</item>
+        <item>THE KRAKEN PRIESTESS</item>
+        <item>THE BLADE DANCER</item>
+        <item>THE GREEN FATHER</item>
+        <item>THE STORM\'S FURY</item>
+        <item>THE EXEMPLAR OF DEMACIA </item>
+        <item>GRANDMASTER AT ARMS</item>
+        <item>THE VIRTUOSO</item>
+        <item>DAUGHTER OF THE VOID</item>
+        <item>THE SPEAR OF VENGEANCE</item>
+        <item>THE PRIDE OF NAZUMAH</item>
+        <item>THE DECEIVER</item>
+        <item>THE BLIND MONK</item>
+        <item>THE RADIANT DAWN</item>
+        <item>SHARD OF THE MONOLITH</item>
+        <item>THE PROPHET OF THE VOID</item>
+        <item>HE TWISTED TREANT</item>
+        <item>THE HOUND OF A HUNDRED BITES</item>
+        <item>THE TIDECALLER</item>
+        <item>THE CURATOR OF THE SANDS</item>
+        <item>THE BERSERKER</item>
+        <item>THE LADY OF CLOCKWORK</item>
+        <item>THE FIRE BELOW THE MOUNTAIN</item>
+        <item>THE UNBREAKABLE SPEAR</item>
+        <item>KEEPER OF THE HAMMER</item>
+        <item>THE BLOODHARBOR RIPPER</item>
+        <item>EMPRESS OF THE ELEMENTS</item>
+        <item>DEMACIA\'S WINGS</item>
+        <item>THE CHARMER</item>
+        <item>THE ARMORDILLO</item>
+        <item>THE VOID BURROWER</item>
+        <item>THE DESERT ROSE</item>
+        <item>FURY OF THE NORTH</item>
+        <item>THE REDEEMER</item>
+        <item>THE RIVER KING</item>
+        <item>THE STONEWEAVER</item>
+        <item>THE BLADE\'S SHADOW</item>
+        <item>THE SPIRIT WALKER</item>
+        <item>THE DREADNOUGHT</item>
+        <item>THE ARROW OF RETRIBUTION</item>
+        <item>THE NIGHT HUNTER</item>
+        <item>THE TINY MASTER OF EVIL</item>
+        <item>THE UNCAGED WRATH OF ZAUN</item>
+        <item>THE MONKEY KING</item>
+        <item>THE REBEL</item>
+        <item>THE MAGUS ASCENDANT</item>
+        <item>THE SENESCHAL OF DEMACIA</item>
+        <item>THE UNFORGIVEN</item>
+        <item>THE UNFORGOTTEN</item>
+        <item>SHEPHERD OF SOULS</item>
+        <item>THE SECRET WEAPON</item>
+        <item>THE MASTER OF SHADOWS</item>
+        <item>THE SPARK OF ZAUN</item>
+    </string-array>
 </resources>

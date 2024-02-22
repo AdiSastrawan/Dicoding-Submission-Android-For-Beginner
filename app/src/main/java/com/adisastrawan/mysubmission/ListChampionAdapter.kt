@@ -1,7 +1,9 @@
 package com.adisastrawan.mysubmission
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.adisastrawan.mysubmission.databinding.ItemRowChampBinding
 
@@ -19,6 +21,11 @@ class ListChampionAdapter(private val listChampion:ArrayList<Champion>):Recycler
         holder.binding.imgChamp.setImageResource(photo)
         holder.binding.tvChampName.text = name
         holder.binding.tvChampDesc.text = description
+        holder.itemView.setOnClickListener{
+            val intent = Intent(holder.itemView.context,DetailActivity::class.java)
+            intent.putExtra(DetailActivity.EXTRA_CHAMPION,listChampion[holder.adapterPosition])
+            holder.itemView.context.startActivity(intent)
+        }
     }
     class ListViewHolder( var binding:ItemRowChampBinding) : RecyclerView.ViewHolder(binding.root)
 }
